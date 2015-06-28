@@ -1,0 +1,30 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+
+    id:
+        label: void.match::lang.match.id
+        invisible: true
+
+    title:
+        label: void.match::lang.match.title
+        type: text
+        searchable: true
+        
+    type:
+        label: void.match::lang.match.type
+        type: text
+        searchable: true
+        
+    status:
+        label: void.match::lang.match.status
+        type: text
+        searchable: true
+
+    # matches:
+    #     label: void.match::lang.matches
+    #     type: relation
+    #     relation: comics
+    #     select: matches

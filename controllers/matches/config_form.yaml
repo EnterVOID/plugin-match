@@ -1,0 +1,16 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+name: void.match::lang.match.label
+form: ~/plugins/void/match/models/match/fields.yaml
+modelClass: Void\Match\Models\Match
+defaultRedirect: void/match/matches
+
+create:
+    redirect: void/match/matches/update/:id
+    redirectClose: void/match/matches
+
+update:
+    redirect: void/match/matches
+    redirectClose: void/match/matches
